@@ -1,0 +1,39 @@
+.proyecto{
+    border: 2px solid #000; /* es el grosor del borde */
+    padding: 10px; /* margen interno */
+    margin: 10px; /* margen externo */
+    background-color: #f0f0f0; /* color del fondo */
+    width: 300px; /* ancho */
+    box-sizing: border-box; /* Incluye padding en el ancho */
+}
+
+.titulo{
+    display: flex; /*alinea elementos*/
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height:50px; /* altura */
+}
+.arriba{
+   
+    align-items: center;
+    justify-content: center;
+}
+
+#proyectos{
+    display: flex;/*se ponene por defecto en fila*/
+    flex-wrap: wrap;/*los ajusta según el tamaño de lapágina*/
+}
+
+.elh2{
+    text-align: center;
+}
+
+#filtros{
+    display: flex;
+    justify-content: center;
+    gap: 1em; /*meter un espacio entre los elementos*/
+}
+
+.seleccionado {
+    background-color: red;
+}

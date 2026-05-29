@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfilio.js</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+
+<body>
+    <header><!--la introducción de la página-->
+        <h1 class="titulo">PORFOLIO</h1>
+        <div id="filtros">
+            <!--id se usa en para identifiacr avrios elementos, como, por ejemplo, dos grupos de botomes, como es en este caso.-->
+            <button type="button" class="arriba" data-filter="todos">todos</button>
+            <button type="button" class="arriba"  data-filter="personajes">personajes</button>
+            <button type="button" class="arriba"  data-filter="fondos">fondos</button>
+            <button type="button" class="arriba"  data-filter="posters">posters</button>
+        </div>
+    </header>
+    <main>
+        <h2 class="elh2"> proyectos</h2>
+        <div id="proyectos">
+            <section class="proyecto" data-categoria="personajes">
+                <img src="imgs/3.jpeg" alt="3" width="150">
+                <h3>Nº3</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, saepe eius. Quod quas cumque
+                    maiores cum quidem suscipit rem illum tempora aliquid repellat, ratione, autem consequatur delectus
+                    pariatur, adipisci nihil.</p>
+            </section>
+            <section class="proyecto" data-categoria="fondos">
+                <img src="imgs/fondo.casa.png" alt="fondo casa" width="200">
+                <h3>fondo casa</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, saepe eius. Quod quas cumque
+                    maiores cum quidem suscipit rem illum tempora aliquid repellat, ratione, autem consequatur delectus
+                    pariatur, adipisci nihil.</p>
+            </section>
+            <section class="proyecto" data-categoria="personajes">
+                <img src="imgs/Matthew.Johnstone.png" alt="Matias" width="200">
+                <h3>Matías</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, saepe eius. Quod quas cumque
+                    maiores cum quidem suscipit rem illum tempora aliquid repellat, ratione, autem consequatur delectus
+                    pariatur, adipisci nihil.</p>
+            </section>
+            <section class="proyecto" data-categoria="fondos">
+                <img src="imgs/oficina.png" alt="oficina" width="200">
+                <h3>Oficina</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, saepe eius. Quod quas cumque
+                    maiores cum quidem suscipit rem illum tempora aliquid repellat, ratione, autem consequatur delectus
+                    pariatur, adipisci nihil.</p>
+            </section>
+            <section class="proyecto" data-categoria="posters">
+                <img src="imgs/Los.cajeros.poster.png" alt="poster cajeros" width="150">
+                <h3>Poster 1</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas, saepe eius. Quod quas cumque
+                    maiores cum quidem suscipit rem illum tempora aliquid repellat, ratione, autem consequatur delectus
+                    pariatur, adipisci nihil.</p>
+            </section>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
